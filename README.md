@@ -7,7 +7,7 @@ I made this configuration and script to aid a specific problem I've been experie
 * Huge audio and video desync in windowed mode but perfect sync in fullscreen
 * Speed up fullscreen video but correct pacing in windowed mode with 'display-fps-override=60'
 
-The cause of this problem is correlated to the known problems regarding playing 23.98/24/29.97 fps media or similar on a high refresh rate display.  
+The cause of this problem is correlated to the known problems regarding playing 23.98/24/29.97 fps media or similar on a high refresh rate display and display-resample.  
 Also something happened in recent mpv updates (at least on the Windows build) and probably G-Sync is also doing something.  
 So I came up with this to solve these issues cleanly for both windowed and fullscreen modes without giving up display-resample or windowed mode.
 
