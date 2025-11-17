@@ -13,10 +13,10 @@ So I came up with this to solve these issues cleanly for both windowed and fulls
 
 ## Table of Contents
 
-* [Configuration](##configuration)
+* [Configuration](#configuration)
 * [Script installation](#script-installation)
-* [Notes](##notes)
-* [Support](##support)
+* [Notes](#notes)
+* [Support](#support)
 * [License](#license)
 
 ## Configuration
