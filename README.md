@@ -1,6 +1,6 @@
 # mpv-auto-video-sync
 
-A simple mpv configuration and script to efficiently handle video-sync in both windowed and fullscreen scenarios.
+A simple mpv configuration and script to efficiently handle video-sync in both widowed and fullscreen without scarifying anything
 
 I made this configuration and script to aid a specific problem I've been experiencing:
 
