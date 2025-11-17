@@ -5,7 +5,7 @@ A simple mpv configuration and script to efficiently handle video-sync in both w
 I made this configuration and script to aid a specific problem I've been experiencing:
 
 * Huge audio and video desync in windowed mode but perfect sync in fullscreen
-* Speed up fullscreen video but correct pacing in windowed mode forcing display-fps-override=60
+* Speed up fullscreen video but correct pacing in windowed mode with 'display-fps-override=60'
 
 The cause of this problem is correlated to the known problems regarding playing 23.98/24/29.97 fps media or similar on a high refresh rate display.  
 Also something happened in recent mpv updates (at least on the Windows build) and probably G-Sync is also doing something.  
