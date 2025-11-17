@@ -74,12 +74,12 @@ And finally add the two profiles:
 # Windowed mode
 [windowed-sync-audio]
 video-sync=audio
-tscale=sphinx
+tscale=oversample
 
 # Fullscreen mode
 [fullscreen-sync-display]
 video-sync=display-resample
-tscale=oversample
+tscale=sphinx
 ```
 
 Of course you can add other configs you want to the profile and maybe also change the tscale, the main thing here is the video-sync option.  
