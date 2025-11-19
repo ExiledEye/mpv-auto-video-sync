@@ -27,7 +27,7 @@ Add this in your mpv.conf:
 correct-pts=yes
 interpolation=yes
 interpolation-preserve=yes
-display-fps-override=0 # Automatically set to your display's refresh rate
+display-fps-override=0 # 0 -> automatically set to your display's refresh rate
 ```
 
 Optionally I also recommend testing on your end:
