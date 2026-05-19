@@ -40,7 +40,7 @@ Optionally I also recommend testing on your end:
 framedrop=no
 ```
 
-Also I recommend to disable vrr and freesync/gsync for mpv in your video card control panel (for example Nvcp or Adrenaline).
+Also I recommend to disable vrr and freesync/gsync for mpv and set "Prefered refresh rate" to "Application-controlled" in your video card control panel (for example Nvcp or Adrenaline).
 
 ---
 
