@@ -4,7 +4,7 @@
 ![Lua](https://img.shields.io/badge/Language-Lua-blue.svg)
 ![MPV](https://img.shields.io/badge/Player-MPV-purple.svg)
 
-A simple mpv configuration and script to efficiently handle video-sync in both widowed and fullscreen without scarifying anything
+A simple MPV configuration and script to efficiently handle video-sync in both widowed and fullscreen without scarifying anything
 
 I made this configuration and script to aid a specific problem I've been experiencing:
 
@@ -12,7 +12,7 @@ I made this configuration and script to aid a specific problem I've been experie
 * Speed up fullscreen video but correct pacing in windowed mode with 'display-fps-override=60'
 
 The cause of this problem is correlated to the known problems regarding playing 23.98/24/29.97 fps media or similar on a high refresh rate display and display-resample.  
-Also something happened in recent mpv updates (at least on the Windows build) and probably G-Sync is also doing something.  
+Also something happened in recent MPV updates (at least on the Windows build) and probably G-Sync is also doing something.  
 So I came up with this to solve these issues cleanly for both windowed and fullscreen modes without giving up display-resample or windowed mode.
 
 ## Table of Contents
@@ -40,7 +40,7 @@ Optionally I also recommend testing on your end:
 framedrop=no
 ```
 
-Also I recommend to disable vrr and freesync/gsync for mpv and set "Prefered refresh rate" to "Application-controlled" in your video card control panel (for example Nvcp or Adrenaline).
+Also I recommend to disable vrr and freesync/gsync for MPV and set "Prefered refresh rate" to "Application-controlled" in your video card control panel (for example Nvcp or Adrenaline).
 
 ---
 
@@ -89,7 +89,7 @@ tscale=sphinx
 ```
 
 Of course you can add other configs you want to the profile and maybe also change the tscale, the main thing here is the video-sync option.  
-The script will simply switch between them according to mpv screen mode.
+The script will simply switch between them according to MPV screen mode.
 
 ## Script installation
 
