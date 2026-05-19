@@ -15,14 +15,6 @@ The cause of this problem is correlated to the known problems regarding playing 
 Also something happened in recent MPV updates (at least on the Windows build) and probably G-Sync is also doing something.  
 So I came up with this to solve these issues cleanly for both windowed and fullscreen modes without giving up display-resample or windowed mode.
 
-## Table of Contents
-
-* [Configuration](#configuration)
-* [Script installation](#script-installation)
-* [Notes](#notes)
-* [Support](#support)
-* [License](#license)
-
 ## Configuration
 
 Add this in your mpv.conf:
