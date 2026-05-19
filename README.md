@@ -1,5 +1,9 @@
 # mpv-auto-video-sync
 
+![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+![Lua](https://img.shields.io/badge/Language-Lua-blue.svg)
+![MPV](https://img.shields.io/badge/Player-MPV-purple.svg)
+
 A simple mpv configuration and script to efficiently handle video-sync in both widowed and fullscreen without scarifying anything
 
 I made this configuration and script to aid a specific problem I've been experiencing:
